@@ -1,16 +1,14 @@
 # flutter_downloader_example
 
-A new Flutter project.
+It is a demo project to demonstrate the use of [flutter_downloader](https://pub.dev/packages/flutter_downloader) package.
 
-## Getting Started
+Here are the screen shots of UI:
 
-This project is a starting point for a Flutter application.
+|File Listing Screen| File Download Screen 1 | File Download Screen 2 |
+|-|-|-|
+|![File Listing screen](./assets/file_listing_screen.jpeg) | ![File Download Screen 1](./assets/file_download_screen_1.jpeg) | ![File Download Screen 2](./assets/file_download_screen_2.jpeg) |
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In [File Listing Screen](./lib/file_listing_screen.dart) all the file urls are listed. Once you click on one of the tile it will navigate you to [File Download Screen](./lib/file_download_screen.dart).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In [File Download Screen](./lib/file_download_screen.dart) user can download the file by clicking on Download button. While downloading the file user can pause, resume or cancel the process.
